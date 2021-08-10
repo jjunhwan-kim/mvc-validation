@@ -20,6 +20,7 @@ public class Item {
     private Integer price;
 
     @Max(9999)
+    @NotNull
     private Integer quantity;
 
     public Item() {
